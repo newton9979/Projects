@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Prism — Design Studio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" id="navbar">
+    <div class="nav-inner">
+      <a href="#" class="logo">Prism<span class="dot">.</span></a>
+      <ul class="nav-links">
+        <li><a href="#work">Work</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#contact" class="nav-cta">Let's talk</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg">
+      <div class="blob blob-1"></div>
+      <div class="blob blob-2"></div>
+      <div class="blob blob-3"></div>
+    </div>
+    <div class="hero-content">
+      <span class="eyebrow">Creative Design Studio</span>
+      <h1 class="hero-title">
+        We craft
+        <span class="highlight" id="rotating-word">bold</span>
+        digital<br>experiences.
+      </h1>
+      <p class="hero-sub">From brand identity to full-scale digital products — we turn ambitious ideas into visual reality.</p>
+      <div class="hero-actions">
+        <a href="#work" class="btn btn-primary">See our work</a>
+        <a href="#contact" class="btn btn-ghost">Start a project →</a>
+      </div>
+    </div>
+    <div class="hero-cards">
+      <div class="floating-card card-a">🎨 Brand Identity</div>
+      <div class="floating-card card-b">⚡ UI/UX Design</div>
+      <div class="floating-card card-c">🚀 Development</div>
+    </div>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee-wrap">
+    <div class="marquee-track">
+      <span>Brand Design</span><span class="sep">✦</span>
+      <span>UI / UX</span><span class="sep">✦</span>
+      <span>Motion</span><span class="sep">✦</span>
+      <span>Web Development</span><span class="sep">✦</span>
+      <span>Strategy</span><span class="sep">✦</span>
+      <span>Brand Design</span><span class="sep">✦</span>
+      <span>UI / UX</span><span class="sep">✦</span>
+      <span>Motion</span><span class="sep">✦</span>
+      <span>Web Development</span><span class="sep">✦</span>
+      <span>Strategy</span><span class="sep">✦</span>
+    </div>
+  </div>
+
+  <!-- STATS -->
+  <section class="stats">
+    <div class="container">
+      <div class="stat-grid">
+        <div class="stat-card" data-color="violet">
+          <span class="stat-num" data-target="120">0</span>
+          <span class="stat-plus">+</span>
+          <p>Projects delivered</p>
+        </div>
+        <div class="stat-card" data-color="orange">
+          <span class="stat-num" data-target="48">0</span>
+          <span class="stat-plus">+</span>
+          <p>Happy clients</p>
+        </div>
+        <div class="stat-card" data-color="teal">
+          <span class="stat-num" data-target="7">0</span>
+          <span class="stat-plus"></span>
+          <p>Design awards</p>
+        </div>
+        <div class="stat-card" data-color="pink">
+          <span class="stat-num" data-target="5">0</span>
+          <span class="stat-plus">yrs</span>
+          <p>In the industry</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WORK -->
+  <section class="work" id="work">
+    <div class="container">
+      <div class="section-header">
+        <span class="tag">Selected work</span>
+        <h2>Projects that<br><em>push limits.</em></h2>
+      </div>
+      <div class="project-grid">
+        <article class="project-card big" style="--accent:#7C3AED">
+          <div class="project-img grad-violet">
+            <span class="project-emoji">🟣</span>
+          </div>
+          <div class="project-info">
+            <span class="project-tag">Brand Identity</span>
+            <h3>Lumina Health</h3>
+            <p>Complete rebrand for a modern telehealth platform reaching 200K+ users.</p>
+            <a href="#" class="project-link">View case →</a>
+          </div>
+        </article>
+        <article class="project-card" style="--accent:#F59E0B">
+          <div class="project-img grad-amber">
+            <span class="project-emoji">🟡</span>
+          </div>
+          <div class="project-info">
+            <span class="project-tag">UI / UX</span>
+            <h3>Orbit Finance</h3>
+            <p>Dashboard redesign for a fintech startup.</p>
+            <a href="#" class="project-link">View case →</a>
+          </div>
+        </article>
+        <article class="project-card" style="--accent:#10B981">
+          <div class="project-img grad-teal">
+            <span class="project-emoji">🟢</span>
+          </div>
+          <div class="project-info">
+            <span class="project-tag">Web Dev</span>
+            <h3>Folio CMS</h3>
+            <p>Headless CMS with a blazing-fast frontend.</p>
+            <a href="#" class="project-link">View case →</a>
+          </div>
+        </article>
+        <article class="project-card" style="--accent:#EC4899">
+          <div class="project-img grad-pink">
+            <span class="project-emoji">🔴</span>
+          </div>
+          <div class="project-info">
+            <span class="project-tag">Motion</span>
+            <h3>Pulse Studio</h3>
+            <p>Motion-first landing page for an audio brand.</p>
+            <a href="#" class="project-link">View case →</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-header light">
+        <span class="tag tag-light">What we do</span>
+        <h2>Services built<br>for <em>impact.</em></h2>
+      </div>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon" style="background:#EDE9FE;color:#7C3AED">🎨</div>
+          <h3>Brand Identity</h3>
+          <p>Logo, color systems, typography, and brand guidelines that make you unforgettable.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon" style="background:#FEF3C7;color:#D97706">⚡</div>
+          <h3>UI / UX Design</h3>
+          <p>Wireframes, prototypes, and pixel-perfect interfaces built on user research.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon" style="background:#D1FAE5;color:#059669">🌐</div>
+          <h3>Web Development</h3>
+          <p>Fast, accessible, and responsive websites using modern frameworks.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon" style="background:#FCE7F3;color:#DB2777">🎬</div>
+          <h3>Motion Design</h3>
+          <p>Animations and micro-interactions that breathe life into static designs.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon" style="background:#E0F2FE;color:#0284C7">📱</div>
+          <h3>Mobile Apps</h3>
+          <p>Native-feel mobile experiences for iOS and Android platforms.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon" style="background:#F3E8FF;color:#9333EA">📊</div>
+          <h3>Strategy</h3>
+          <p>Digital strategy, competitive analysis, and go-to-market positioning.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TEAM -->
+  <section class="team" id="team">
+    <div class="container">
+      <div class="section-header">
+        <span class="tag">The people</span>
+        <h2>Small team,<br><em>big vision.</em></h2>
+      </div>
+      <div class="team-grid">
+        <div class="team-card">
+          <div class="avatar" style="background: linear-gradient(135deg,#7C3AED,#EC4899)">AK</div>
+          <h3>Aanya Kapoor</h3>
+          <span>Creative Director</span>
+          <p>10+ years shaping visual identities for global brands.</p>
+        </div>
+        <div class="team-card">
+          <div class="avatar" style="background: linear-gradient(135deg,#F59E0B,#EF4444)">MS</div>
+          <h3>Marco Silva</h3>
+          <span>Lead Developer</span>
+          <p>Full-stack engineer obsessed with performance and accessibility.</p>
+        </div>
+        <div class="team-card">
+          <div class="avatar" style="background: linear-gradient(135deg,#10B981,#3B82F6)">ZL</div>
+          <h3>Zoe Lin</h3>
+          <span>UX Researcher</span>
+          <p>Transforms user insights into design decisions that convert.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials">
+    <div class="container">
+      <div class="section-header">
+        <span class="tag">Kind words</span>
+        <h2>Clients who<br><em>trust us.</em></h2>
+      </div>
+      <div class="testimonial-grid">
+        <blockquote class="testimonial-card" style="--t-color:#7C3AED">
+          <p>"Prism completely transformed how our brand shows up online. The results were beyond anything we imagined."</p>
+          <footer><strong>Sara J.</strong> — CEO, Lumina Health</footer>
+        </blockquote>
+        <blockquote class="testimonial-card" style="--t-color:#F59E0B">
+          <p>"Delivery was fast, the quality was exceptional, and the team was a joy to work with throughout."</p>
+          <footer><strong>Alex M.</strong> — Founder, Orbit Finance</footer>
+        </blockquote>
+        <blockquote class="testimonial-card" style="--t-color:#10B981">
+          <p>"Our website went from embarrassing to award-winning in six weeks. Absolutely recommend."</p>
+          <footer><strong>Dana R.</strong> — CMO, Folio CMS</footer>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT CTA -->
+  <section class="contact-cta" id="contact">
+    <div class="container">
+      <div class="cta-box">
+        <div class="cta-blobs">
+          <div class="cta-blob b1"></div>
+          <div class="cta-blob b2"></div>
+        </div>
+        <span class="tag tag-light">Get in touch</span>
+        <h2>Ready to build<br>something <em>great?</em></h2>
+        <p>Tell us about your project and we'll get back to you within 24 hours.</p>
+        <form class="contact-form" id="contactForm">
+          <div class="form-row">
+            <input type="text" placeholder="Your name" required />
+            <input type="email" placeholder="Email address" required />
+          </div>
+          <textarea placeholder="Tell us about your project..." rows="4"></textarea>
+          <button type="submit" class="btn btn-white">Send message ✦</button>
+        </form>
+        <div class="form-success" id="formSuccess">
+          🎉 Thanks! We'll be in touch soon.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a href="#" class="logo">Prism<span class="dot">.</span></a>
+      <p>© 2025 Prism Studio. All rights reserved.</p>
+      <div class="footer-links">
+        <a href="#">Twitter</a>
+        <a href="#">Dribbble</a>
+        <a href="#">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
