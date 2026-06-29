@@ -1,0 +1,12 @@
+diagrams.drawio
+│
+├── Page 1 → AWS Project Architecture
+├── Page 2 → Project Workflow
+├── Page 3 → CloudWatch Workflow
+├── Page 4 → CloudTrail Workflow
+├── Page 5 → SNS Notification Flow
+├── Page 6 → EBS Architecture
+├── Page 7 → EFS Architecture
+├── Page 8 → AMI Backup Workflow
+├── Page 9 → S3 Backup Workflow
+└── Page 10 → Final Project Architecture
