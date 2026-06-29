@@ -101,7 +101,17 @@ Attach the following AWS managed policies:
 📸 Screenshot:
 
 ```
-../screenshots/IAM/01-iam-dashboard.png
+<div align="center">
+
+<img src="../screenshots/IAM/01-iam-dashboard.png"
+     alt="IAM Dashboard"
+     width="90%">
+
+<br>
+
+<p><strong>Figure 1:</strong> IAM Dashboard</p>
+
+</div>
 ```
 
 ---
@@ -114,7 +124,17 @@ Attach the following AWS managed policies:
 📸 Screenshot:
 
 ```
-../screenshots/IAM/02-create-role.png
+<div align="center">
+
+<img src="../screenshots/IAM/02-create-role.png"
+     alt="Create IAM Role"
+     width="90%">
+
+<br>
+
+<p><strong>Figure 2:</strong> Create IAM Role</p>
+
+</div>
 ```
 
 ---
@@ -129,7 +149,17 @@ Click **Next**.
 📸 Screenshot:
 
 ```
-../screenshots/IAM/03-trusted-entity.png
+<div align="center">
+
+<img src="../screenshots/IAM/03-trusted-entity.png"
+     alt="Select Trusted Entity"
+     width="90%">
+
+<br>
+
+<p><strong>Figure 3:</strong> Select EC2 as the Trusted Entity</p>
+
+</div>
 ```
 
 ---
@@ -148,7 +178,18 @@ Click **Next**.
 📸 Screenshot:
 
 ```
-../screenshots/IAM/04-policies.png
+<div align="center">
+
+<img src="../screenshots/IAM/04-policies.png"
+     alt="Attach IAM Policies"
+     width="90%">
+
+<br>
+
+<p><strong>Figure 4:</strong> Attach Required IAM Policies</p>
+
+</div>
+
 ```
 
 ---
@@ -158,7 +199,18 @@ Click **Next**.
 Role Name:
 
 ```
-EC2-ServerMonitoring-Role
+<div align="center">
+
+<img src="../screenshots/IAM/05-role-created.png"
+     alt="IAM Role Created Successfully"
+     width="90%">
+
+<br>
+
+<p><strong>Figure 5:</strong> IAM Role Created Successfully</p>
+
+</div>
+
 ```
 
 Description:
