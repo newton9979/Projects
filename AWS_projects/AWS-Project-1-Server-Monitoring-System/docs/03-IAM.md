@@ -101,7 +101,7 @@ Attach the following AWS managed policies:
 📸 Screenshot:
 
 ```
-screenshots/IAM/01-iam-dashboard.png
+../screenshots/IAM/01-iam-dashboard.png
 ```
 
 ---
@@ -114,7 +114,7 @@ screenshots/IAM/01-iam-dashboard.png
 📸 Screenshot:
 
 ```
-screenshots/IAM/02-create-role.png
+../screenshots/IAM/02-create-role.png
 ```
 
 ---
@@ -129,7 +129,7 @@ Click **Next**.
 📸 Screenshot:
 
 ```
-screenshots/IAM/03-trusted-entity.png
+../screenshots/IAM/03-trusted-entity.png
 ```
 
 ---
@@ -148,7 +148,7 @@ Click **Next**.
 📸 Screenshot:
 
 ```
-screenshots/IAM/04-policies.png
+../screenshots/IAM/04-policies.png
 ```
 
 ---
@@ -172,7 +172,7 @@ Click **Create Role**.
 📸 Screenshot:
 
 ```
-screenshots/IAM/05-role-created.png
+../screenshots/IAM/05-role-created.png
 ```
 
 ---
