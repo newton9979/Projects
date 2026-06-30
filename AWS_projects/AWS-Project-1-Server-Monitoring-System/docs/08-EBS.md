@@ -295,7 +295,7 @@ Use the following configuration:
 
 Click **Create Volume**.
 
-![Create EBS Volume](screenshots/EBS/01-Create-Volume.png)
+![Create EBS Volume](../screenshots/EBS/01-Create-Volume.png)
 
 ---
 
@@ -312,7 +312,7 @@ After creation, verify the volume details.
 
 The volume status should display `Available`.
 
-![Volume Created](screenshots/EBS/02-Volume-Created.png)
+![Volume Created](../screenshots/EBS/02-Volume-Created.png)
 
 ---
 
@@ -326,7 +326,7 @@ Select the newly created volume, then choose Actions → Attach Volume. Select y
 
 Click **Attach Volume**.
 
-![Attach Volume](screenshots/EBS/03-Attach-Volume.png)
+![Attach Volume](../screenshots/EBS/03-Attach-Volume.png)
 
 ---
 
@@ -368,7 +368,7 @@ Notice that **xvdf** has no partition and no mount point. You can also verify us
 sudo fdisk -l
 ```
 
-![lsblk Output](screenshots/EBS/04-lsblk.png)
+![lsblk Output](../screenshots/EBS/04-lsblk.png)
 
 ---
 
@@ -400,7 +400,7 @@ w
 | Enter   | Default last sector  |
 | w       | Save changes         |
 
-![fdisk Partition](screenshots/EBS/05-fdisk.png)
+![fdisk Partition](../screenshots/EBS/05-fdisk.png)
 
 ---
 
@@ -451,7 +451,7 @@ Example Output:
 /dev/xvdf1: UUID="xxxxxxxx-xxxx-xxxx" TYPE="xfs"
 ```
 
-![Format File System](screenshots/EBS/06-mkfs.png)
+![Format File System](../screenshots/EBS/06-mkfs.png)
 
 ---
 
@@ -493,7 +493,7 @@ Filesystem      Size Used Avail Use% Mounted on
 
 The EBS volume is now mounted successfully.
 
-![Mount Volume](screenshots/EBS/07-mount.png)
+![Mount Volume](../screenshots/EBS/07-mount.png)
 
 ---
 
@@ -519,7 +519,7 @@ UUID=xxxxxxxx-xxxx-xxxx   /data   xfs   defaults,nofail   0   2
 
 Save and exit.
 
-![fstab Configuration](screenshots/EBS/09-fstab.png)
+![fstab Configuration](../screenshots/EBS/09-fstab.png)
 
 ---
 
@@ -545,7 +545,7 @@ sudo reboot
 
 After reconnecting, run `df -h` again. The volume should still be mounted at `/data`.
 
-![df -h Output](screenshots/EBS/08-df-h.png)
+![df -h Output](../screenshots/EBS/08-df-h.png)
 
 ---
 
