@@ -295,7 +295,7 @@ Use the following configuration:
 
 Click **Create Volume**.
 
-![Create EBS Volume](screenshots/EBS/01-Create-Volume.png)
+![Create EBS Volume](../screenshots/EBS/01-Create-Volume.png)
 
 ---
 
